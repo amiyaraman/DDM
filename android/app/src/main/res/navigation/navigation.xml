@@ -12,7 +12,8 @@
         tools:layout="@layout/fragment_login" >
         <action
             android:id="@+id/action_loginFragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment" />
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
@@ -49,7 +50,12 @@
         android:id="@+id/scannerFragment"
         android:name="com.example.gharkakhana.ui.ScannerFragment"
         android:label="fragment_scanner"
-        tools:layout="@layout/fragment_scanner" />
+        tools:layout="@layout/fragment_scanner" >
+        <action
+            android:id="@+id/action_scannerFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/scannerFragment" />
+    </fragment>
     <fragment
         android:id="@+id/subscriptionsFragment"
         android:name="com.example.gharkakhana.ui.SubscriptionsFragment"
