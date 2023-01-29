@@ -1,5 +1,15 @@
 <resources>
-    <string name="app_name">GharKaKhana</string>
+    <string name="app_name">DMRC</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="recharge">RECHARGE</string>
+    <string name="scanner">SCANNER</string>
+    <string name="navigator">NAVIGATOR</string>
+    <string name="travelHistory">TRAVEL HISTORY</string>
+    <string name="wallet_balance">Wallet Balance</string>
+    <string name="amount">Amount</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signup">SignUp</string>
+    <string name="login">Login</string>
 </resources>
